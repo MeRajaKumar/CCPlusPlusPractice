@@ -1,0 +1,11 @@
+1. wap to display your name using function
+2. wap create a function for adding two interger number
+3. create a function for adding three integer number
+4. create a function for adding three floading point number
+5. create a function to check character is vowel or not where char is given as its argument
+6. create a function number is given as its argument
+7. create a function to check number is prime or not
+8. create a fun to check number is armostrong or not? where num is given as its argument
+9. create a fun to check number is palinderome or not
+10. wap to fine its reverse number
+11. 
