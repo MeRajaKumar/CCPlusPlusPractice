@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <math.h>  // for sin, cos, pow, sqrt
-#include <stdlib.h> // for exit
+#include <math.h>  
+#include <stdlib.h>
 
 int main() {
     int choice;
@@ -20,7 +20,7 @@ int main() {
             case 1:
                 printf("Enter angle in degrees: ");
                 scanf("%lf", &num);
-                result = sin(num * M_PI / 180);  // Convert degrees to radians
+                result = sin(num * M_PI / 180); 
                 printf("sin(%.2lf) = %.4lf\n", num, result);
                 break;
 
@@ -36,7 +36,7 @@ int main() {
             case 3:
                 printf("Enter angle in degrees: ");
                 scanf("%lf", &num);
-                result = cos(num * M_PI / 180);  // Convert degrees to radians
+                result = cos(num * M_PI / 180);  
                 printf("cos(%.2lf) = %.4lf\n", num, result);
                 break;
 
@@ -58,7 +58,7 @@ int main() {
             default:
                 printf("Invalid choice. Please try again.\n");
         }
-    } while (1);  // infinite loop until exit
+    } while (1); 
 
     return 0;
 }
